@@ -111,10 +111,12 @@ To set up the CityCare project locally, follow these steps:
 6. *Run the mobile application*:
     bash
     cd app
+    place your api key of google maps in src/utils/api
+    and in AndroidManifest.xml 
     npm run android
     
 
-7. *Run the web application*:
+8. *Run the web application*:
     bash
     cd dashboard
     npm start
